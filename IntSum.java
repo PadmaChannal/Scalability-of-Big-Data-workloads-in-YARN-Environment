@@ -30,6 +30,7 @@ import org.apache.hadoop.util.StringUtils;
         		sum=sum+Integer.parseInt(j);
         	}
         	 //output.set(Integer.parseInt(line));
+		//
         	//System.out.println(line+" ****");
         	  context.write(new Text("sum"),new IntWritable(sum) );
                 
